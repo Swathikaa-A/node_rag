@@ -1,0 +1,21 @@
+{
+  "name": "rag-nodejs",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@qdrant/js-client-rest": "^1.16.2",
+    "axios": "^1.13.2",
+    "llm-splitter": "^0.2.0",
+    "llm-text-splitter": "^0.1.0",
+    "ollama": "^0.6.3",
+    "pdf-parse": "^2.4.5"
+  }
+}

@@ -1,0 +1,11 @@
+What is blockchain technology, and why is it described as a distributed ledger?
+How does decentralization in blockchain help in building trust?
+Why is blockchain called a “chain of blocks,” and what information does each block contain?
+Explain how hashing contributes to the immutability of blockchain.
+What role does cryptography play in blockchain technology?
+Differentiate between a public key and a private key.
+What is a consensus mechanism, and why is it necessary in blockchain?
+Compare Proof of Work and Proof of Stake.
+How does blockchain support cryptocurrencies like Bitcoin?
+Are cryptocurrencies the only use of blockchain? Explain.
+What are smart contracts, and how do they work?
