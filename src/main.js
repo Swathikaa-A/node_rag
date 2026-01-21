@@ -1,6 +1,6 @@
 import readline from 'readline';
-import { getChunks } from './chunks.js';
-import { getEmbeddingsForChunks, getEmbedding } from './embeddings.js';
+import { getChunks } from './ingestion/chunks.js';
+import { getEmbeddingsForChunks, getEmbedding } from './ingestion/embeddings.js';
 import { initCollection, uploadChunks, querySimilar } from './vectordb.js';
 import { queryLLM } from './llm.js';
 

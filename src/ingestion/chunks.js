@@ -1,7 +1,7 @@
-import fs from 'fs';
-import { split } from 'llm-splitter';
+const fs = require('fs');
+const {split} = require('llm-splitter');
 
-export function getChunks(filePath) {
+function getChunks(filePath) {
   const text = fs.readFileSync(filePath, 'utf-8');
 
   const rawChunks = split(text, {
@@ -12,3 +12,5 @@ export function getChunks(filePath) {
   const chunks = rawChunks.map(chunk => chunk.text);
   return chunks;
 }
+
+module.exports = {getChunks};
